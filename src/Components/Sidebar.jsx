@@ -3,12 +3,13 @@ import Navbar from './Navbar'
 import Search from './Search'
 import Texts from './Texts'
 
-const Sidebar = () => {
+const Sidebar = ({chatperson , setChatperson}) => {
+  
   return (
     <div className='sidebar'>
       <Navbar/>
       <Search/>
-      <Texts/>
+      <Texts  chatperson={chatperson} setChatperson={setChatperson}/>
     </div>
   )
 }
