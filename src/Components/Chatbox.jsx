@@ -3,11 +3,11 @@ import './main.css'
 import Messages from './Messages'
 import Input from './Input'
 
-const Chatbox = () => {
+const Chatbox = ({chatperson , setChatperson}) => {
   return (
     <div className='chatbox'>
      <div className="chat-info">
-        <span>Jane</span>
+        <span>{chatperson}</span>
         <div className="chat-info-icons">
         <i class="bi bi-camera-video-fill"></i>
         <i class="bi bi-person-fill"></i>
