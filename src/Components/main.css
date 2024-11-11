@@ -107,6 +107,7 @@ font-weight: 500;
     height: 50px;
     background-color: #5d5d8d;
     color: lightgray;
+    font-size: 25px;
 }
 .chat-info-icons{
     display: flex;
@@ -233,3 +234,50 @@ gap: 10px; */
     gap: 10px; 
     max-width: 80%;
 }
+
+/* .options{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+} */
+
+
+/* Message container styling */
+.owner-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+
+
+
+
+  
+  
+  .options {
+    display: none; /* Initially hidden */
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .owner-cont:hover .options {
+    display: flex; /* Show options on hover */
+  }
+  
+  /* Icon styling */
+  .options i {
+    font-size: 1.2em;
+    color: gray;
+    transition: color 0.2s ease;
+  }
+  
+  .options i:hover {
+    color: #000000; /* Change color on hover */
+  }
+  
+  .ourmsg{
+    position: relative;
+  left: 150px;
+  }
